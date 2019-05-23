@@ -60,7 +60,6 @@ jar {
 	manifest {
 		attributes(
 			'-sources': 'true',
-			'Export-Package': 'org.daisy.streamline.formats',
 			'Import-Package':  'org.daisy.streamline.api.details; provide:=true, *',
 			'Automatic-Module-Name': "$moduleName",
 			'Bundle-Name': "$moduleName",
