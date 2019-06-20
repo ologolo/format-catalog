@@ -45,6 +45,9 @@ public enum LocalizedFormatDetailsList {
 				.build(),
 			c.createLocalized("obfl")
 				.extensions("obfl")
+				.build(),
+			c.createLocalized("markdown")
+				.extensions("md")
 				.build()
 		);
 	}
