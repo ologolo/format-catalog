@@ -48,6 +48,15 @@ public enum LocalizedFormatDetailsList {
 				.build(),
 			c.createLocalized("markdown")
 				.extensions("md")
+				.build(),
+			c.createLocalized("jpeg")
+				.extensions("jpg", "jpeg")
+				.build(),
+			c.createLocalized("png")
+				.extensions("png")
+				.build(),
+			c.createLocalized("plantuml")
+				.extensions("puml")
 				.build()
 		);
 	}
